@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - birobirobiro</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="locomotive.css">
+</head>
+
+<body>
+  <div class="container" data-scroll-container>
+    <header>
+      <div>
+        <img src="./assets/icons/logo.svg" alt="Logo">
+
+        <span>João Inácio</span>
+      </div>
+
+      <i class="ph ph-list"></i>
+    </header>
+
+    <section class="hero" id="hero" data-scroll-section>
+      <div class="hero-container">
+        <div class="image-hero-container">
+          <img src="./assets/icons/avatar.png" alt="">
+        </div>
+
+        <div class="content-hero">
+          <h2>Olá, eu sou o Biro 👋</h2>
+
+          <p>Desenvolvo <span>ideias</span> e ajudo a construir um mundo melhor através da programação.</p>
+        </div>
+
+        <div class="buttons">
+          <button>Contato</button>
+
+          <a href="./assets/cv/profile.pdf" download="curriculum">Download CV
+
+            <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projetcs" data-scroll-section>
+      <h1>Últimos projetos</h1>
+
+      <div class="project">
+        <h2>TypeWeather</h2>
+
+        <div class="tags">
+          <span>React</span>
+          <span>TypeScript</span>
+        </div>
+
+        <div class="project-container">
+          <img src="./assets/projects/food-explorer.png" alt="">
+        </div>
+
+        <div class="project-info">
+          <div>
+            <p>Github</p>
+
+            <i class="ph ph-github-logo"></i>
+          </div>
+
+          <div>
+            <p>Deploy</p>
+
+            <i class="ph ph-globe"></i>
+          </div>
+        </div>
+      </div>
+
+      <a href="#">Ver mais</a>
+    </section>
+
+    <section class="about" id="about" data-scroll-section>
+      <h1>Sobre mim</h1>
+    </section>
+
+    <section class="contact" id="contact" data-scroll-section>
+      <h1>Contate- me</h1>
+    </section>
+  </div>
+
+  <script type="module" src="main.js"></script>
+  <script src="locomotive.js"></script>
+</body>
+
+</html>

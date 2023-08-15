@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+header,
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  gap: 1.3rem;
+}
+
+header div span {
+  color: #000;
+  font-size: 1.375rem;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+}
+
+i {
+  color: #000;
+}
+
+.hero {
+  margin-top: 3.75rem;
+}
+
+.hero-container {
+  display: flex;
+  padding: 1.875rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(111deg, #B096FB 0%, #ABECD6 100%);
+  box-shadow: 0px 4px 6px -2px rgba(172, 237, 215, 0.20), 0px 10px 15px -3px rgba(172, 237, 215, 0.10);
+  text-align: center;
+}
+
+.image-hero-container {
+  border-radius: 624.9375rem;
+  background: #EFFFFA;
+  box-shadow: 0px 13.753177642822266px 27.50635528564453px -6.60152530670166px rgba(182, 237, 207, 0.40);
+  padding: 1.37531rem 1.10025rem;
+}
+
+.content-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  margin-top: 1.56rem;
+}
+
+.content-hero h2 {
+  color: var(--default-gray-900, #111827);
+  font-family: "Nunito", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem;
+  /* 136.364% */
+}
+
+.content-hero p {
+  color: var(--default-gray-900, #111827);
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.375rem;
+  /* 118.75% */
+  min-width: 17.4375rem;
+}
+
+.content-hero span {
+  color: #FFF278;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.375rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.62rem;
+}
+
+.buttons button {
+  border-radius: 2rem;
+  background: var(--default-gray-900, #111827);
+  padding: 0.5rem 2.25rem;
+  color: var(--default-white, #FFF);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: var(--default-gray-900, #111827);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero,
+.projects,
+.about,
+.contact {
+  width: 100%;
+  height: 100vh;
+}
