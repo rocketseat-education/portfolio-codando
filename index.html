@@ -20,8 +20,8 @@
 </head>
 
 <body>
-  <div class="container" data-scroll-container>
-    <header>
+  <div class="content-container" data-scroll-container>
+    <header class="container">
       <div>
         <img src="./assets/icons/logo.svg" alt="Logo">
 
@@ -31,7 +31,7 @@
       <i class="ph ph-list"></i>
     </header>
 
-    <section class="hero" id="hero" data-scroll-section>
+    <section class="hero container" id="hero" data-scroll-section>
       <div class="hero-container">
         <div class="image-hero-container">
           <img src="./assets/icons/avatar.png" alt="">
@@ -44,7 +44,11 @@
         </div>
 
         <div class="buttons">
-          <button>Contato</button>
+          <a href="#contact">
+            <button>
+              Contato
+            </button>
+          </a>
 
           <a href="./assets/cv/profile.pdf" download="curriculum">Download CV
 
@@ -54,7 +58,7 @@
       </div>
     </section>
 
-    <section class="projects" id="projetcs" data-scroll-section>
+    <section class="projects container" id="projects" data-scroll-section>
       <h1>Últimos projetos</h1>
 
       <div class="project">
@@ -65,38 +69,155 @@
           <span>TypeScript</span>
         </div>
 
-        <div class="project-container">
+        <div class="project-container" id="project-1">
           <img src="./assets/projects/food-explorer.png" alt="">
         </div>
 
         <div class="project-info">
-          <div>
-            <p>Github</p>
+          <a href="#" id="link-project">
+            <div>
+              <p>Github</p>
 
-            <i class="ph ph-github-logo"></i>
+
+              <i class="ph ph-github-logo"></i>
+            </div>
+          </a>
+
+          <a href="#" id="link-project">
+            <div>
+              <p>Deploy</p>
+
+              <i class="ph ph-globe"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="project">
+          <h2>TypeWeather</h2>
+
+          <div class="tags">
+            <span>React</span>
+            <span>TypeScript</span>
           </div>
 
-          <div>
-            <p>Deploy</p>
+          <div class="project-container" id="project-2">
+            <img src="./assets/projects/food-explorer.png" alt="">
+          </div>
 
-            <i class="ph ph-globe"></i>
+          <div class="project-info">
+            <a href="#" id="link-project">
+              <div>
+                <p>Github</p>
+
+
+                <i class="ph ph-github-logo"></i>
+              </div>
+            </a>
+
+            <a href="#" id="link-project">
+              <div>
+                <p>Deploy</p>
+
+                <i class="ph ph-globe"></i>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
 
-      <a href="#">Ver mais</a>
+        <div class="project">
+          <h2>TypeWeather</h2>
+
+          <div class="tags">
+            <span>React</span>
+            <span>TypeScript</span>
+          </div>
+
+          <div class="project-container" id="project-3">
+            <img src="./assets/projects/food-explorer.png" alt="">
+          </div>
+
+          <div class="project-info">
+            <a href="#" id="link-project">
+              <div>
+                <p>Github</p>
+
+
+                <i class="ph ph-github-logo"></i>
+              </div>
+            </a>
+
+            <a href="#" id="link-project">
+              <div>
+                <p>Deploy</p>
+
+                <i class="ph ph-globe"></i>
+              </div>
+            </a>
+          </div>
+          <a href="#">Ver mais</a>
     </section>
 
-    <section class="about" id="about" data-scroll-section>
+    <section class="about container" id="about" data-scroll-section>
       <h1>Sobre mim</h1>
+
+      <div class="about-avatar">
+        <img src="./assets/about/hello.svg" alt="">
+      </div>
+
+      <div class="about-me">
+        <p>
+          Tenho 30 anos, estou em transição de carreira, vindo da área de recursos humanos onde desenvolvi experiência
+          com
+          gestão de pessoas, gestão de empresas e negociação com cliente.
+
+          Hoje construo aplicações full-stack!
+        </p>
+      </div>
+
+      <h2>Skills</h2>
+
+      <div class="skills">
+        <div>
+          <img src="./assets/about/react.svg" alt="">
+
+          <span>React</span>
+        </div>
+
+        <div>
+          <img src="./assets/about/node.svg" alt="">
+
+          <span>Node.js</span>
+        </div>
+
+        <div>
+          <img src="./assets/about/sqlite.svg" alt="">
+
+          <span>SQLite</span>
+        </div>
+      </div>
     </section>
 
     <section class="contact" id="contact" data-scroll-section>
-      <h1>Contate- me</h1>
+      <h1>Tem alguma ideia?</h1>
+
+      <span>Vamos construí-la juntos!</span>
+
+      <a
+        href="mailto:birobirobiro.dev@gmail.com?subject=Assunto do email&cc=oi@rocketseat.com.br&bcc=oi@rocketseat.com.br&body=Hello world!">birobirobiro.dev@gmail.com</a>
+
+      <div class="social">
+        <img src="./assets/contact/twitter.svg" alt="">
+
+        <img src="./assets/contact/linkedin.svg" alt="">
+      </div>
+
+      <footer>
+        Developed by <a href="https://birobirobiro.dev">birobirobiro.dev</a>
+      </footer>
     </section>
   </div>
 
-  <script type="module" src="main.js"></script>
+  <script type=" module" src="main.js"></script>
   <script src="locomotive.js"></script>
 </body>
 
