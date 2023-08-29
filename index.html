@@ -61,35 +61,37 @@
     <section class="projects container" id="projects" data-scroll-section>
       <h1>Últimos projetos</h1>
 
-      <div class="project">
-        <h2>TypeWeather</h2>
+      <div id="all-projects">
+        <div class="project">
+          <h2>TypeWeather</h2>
 
-        <div class="tags">
-          <span>React</span>
-          <span>TypeScript</span>
-        </div>
+          <div class="tags">
+            <span>React</span>
+            <span>TypeScript</span>
+          </div>
 
-        <div class="project-container" id="project-1">
-          <img src="./assets/projects/food-explorer.png" alt="">
-        </div>
+          <div class="project-container" id="project-1">
+            <img src="./assets/projects/food-explorer.png" alt="">
+          </div>
 
-        <div class="project-info">
-          <a href="#" id="link-project">
-            <div>
-              <p>Github</p>
+          <div class="project-info">
+            <a href="#" id="link-project">
+              <div>
+                <p>Github</p>
 
 
-              <i class="ph ph-github-logo"></i>
-            </div>
-          </a>
+                <i class="ph ph-github-logo"></i>
+              </div>
+            </a>
 
-          <a href="#" id="link-project">
-            <div>
-              <p>Deploy</p>
+            <a href="#" id="link-project">
+              <div>
+                <p>Deploy</p>
 
-              <i class="ph ph-globe"></i>
-            </div>
-          </a>
+                <i class="ph ph-globe"></i>
+              </div>
+            </a>
+          </div>
         </div>
 
         <div class="project">
@@ -154,24 +156,29 @@
               </div>
             </a>
           </div>
-          <a href="#">Ver mais</a>
+        </div>
+      </div>
+      <a href="#" id="more-projects">Ver mais</a>
     </section>
 
     <section class="about container" id="about" data-scroll-section>
       <h1>Sobre mim</h1>
 
-      <div class="about-avatar">
-        <img src="./assets/about/hello.svg" alt="">
-      </div>
+      <div id="about-wrap">
+        <div class="about-avatar">
+          <img src="./assets/about/hello.svg" alt="">
+        </div>
 
-      <div class="about-me">
-        <p>
-          Tenho 30 anos, estou em transição de carreira, vindo da área de recursos humanos onde desenvolvi experiência
-          com
-          gestão de pessoas, gestão de empresas e negociação com cliente.
-
-          Hoje construo aplicações full-stack!
-        </p>
+        <div class="about-me">
+          <p>
+            Tenho 30 anos, estou em transição de carreira, vindo da área de recursos humanos onde desenvolvi experiência
+            com
+            gestão de pessoas, gestão de empresas e negociação com cliente.
+            </br>
+            </br>
+            Hoje construo aplicações full-stack!
+          </p>
+        </div>
       </div>
 
       <h2>Skills</h2>
@@ -197,25 +204,35 @@
       </div>
     </section>
 
-    <section class="contact" id="contact" data-scroll-section>
-      <h1>Tem alguma ideia?</h1>
+  </div>
 
-      <span>Vamos construí-la juntos!</span>
+  <section class="contact" id="contact" data-scroll-section>
+    <div class="contact-container">
+      <div class="socials">
+        <h1>Tem alguma ideia?</h1>
 
-      <a
-        href="mailto:birobirobiro.dev@gmail.com?subject=Assunto do email&cc=oi@rocketseat.com.br&bcc=oi@rocketseat.com.br&body=Hello world!">birobirobiro.dev@gmail.com</a>
+        <span>Vamos construí-la juntos!</span>
 
-      <div class="social">
-        <img src="./assets/contact/twitter.svg" alt="">
+        <a
+          href="mailto:birobirobiro.dev@gmail.com?subject=Assunto do email&cc=oi@rocketseat.com.br&bcc=oi@rocketseat.com.br&body=Hello world!">birobirobiro.dev@gmail.com</a>
 
-        <img src="./assets/contact/linkedin.svg" alt="">
+        <div class="social">
+          <img src="./assets/contact/twitter.svg" alt="">
+
+          <img src="./assets/contact/linkedin.svg" alt="">
+        </div>
       </div>
 
-      <footer>
-        Developed by <a href="https://birobirobiro.dev">birobirobiro.dev</a>
-      </footer>
-    </section>
-  </div>
+
+      <div class="image-footer">
+        <img src="./assets/contact/icons.png" alt="">
+      </div>
+    </div>
+
+    <footer>
+      Developed by <a href="https://birobirobiro.dev">birobirobiro.dev</a>
+    </footer>
+  </section>
 
   <script type=" module" src="main.js"></script>
   <script src="locomotive.js"></script>

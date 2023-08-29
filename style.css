@@ -294,16 +294,6 @@ i {
   height: 85px;
 }
 
-.contact {
-  background: var(--default-gray-900, #111827);
-
-  /* /shadow/xl */
-  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
-
-  color: var(--default-white, #FFF);
-  min-width: 260px;
-}
-
 .contact h1 {
   margin-top: 3.13rem;
   color: var(--default-white, #FFF);
@@ -320,6 +310,14 @@ i {
   flex-direction: column;
   gap: 2rem;
   padding: 1.5rem;
+
+  background: var(--default-gray-900, #111827);
+
+  /* /shadow/xl */
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+
+  color: var(--default-white, #FFF);
+  min-width: 260px;
 }
 
 .contact span {
@@ -359,4 +357,221 @@ footer {
   font-weight: 300;
   line-height: 100%;
   /* 0.75rem */
+}
+
+.image-footer {
+  display: none;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  #all-projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+    justify-content: space-between;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .container {
+    margin: 2rem 0rem;
+  }
+
+  .content-hero {
+    max-width: 840px;
+  }
+
+  .content-hero h2 {
+    color: var(--default-gray-900, #111827);
+    font-family: Nunito;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.165rem;
+  }
+
+  .content-hero p {
+    color: var(--default-gray-900, #111827);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.6%;
+    /* 4.4475rem */
+  }
+
+  .content-hero span {
+    color: #FFF278;
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.6%;
+  }
+
+  header {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero-container {
+    padding: 2rem 22rem;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects h1 {
+    color: var(--default-gray-900, #111827);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5.125rem;
+    /* 89.13% */
+  }
+
+  .project h2 {
+    color: var(--default-gray-900, #111827);
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  #link-project div p {
+    color: var(--default-gray-900, #111827);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  #more-projects {
+    margin-top: 3.75rem;
+  }
+
+  .about h1 {
+    color: var(--default-gray-900, #111827);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5.125rem;
+    /* 89.13% */
+  }
+
+  .about {
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+
+  #about-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 231px;
+  }
+
+  .about-me {
+    max-width: 498px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-avatar img {
+    width: 395px;
+    height: 395px;
+    /* padding: 3rem; */
+    position: absolute;
+    top: -70px;
+    right: 0;
+  }
+
+  .about h2 {
+    color: var(--default-gray-900, #111827);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5.125rem;
+    /* 89.13% */
+  }
+
+  .skills {
+    display: flex;
+    justify-content: start;
+  }
+
+  .skills div img {
+    width: 148px;
+    height: 148px;
+  }
+
+  .skills div span {
+    color: var(--default-gray-900, #111827);
+    font-family: Poppins;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.0375rem;
+    /* 59.286% */
+  }
+
+  .contact {
+    padding: 5rem;
+  }
+
+  .contact-container {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 595px;
+  }
+
+  .socials h1 {
+    color: var(--default-white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5.125rem;
+    /* 89.13% */
+  }
+
+  .image-footer {
+    display: block;
+  }
 }
